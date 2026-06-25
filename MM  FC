@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Primeiro Site</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+
+        header {
+            background: #0066cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        button {
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Meu Site</h1>
+    <p>Bem-vindo ao meu primeiro projeto!</p>
+</header>
+
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+</nav>
+
+
+<section>
+
+    <h2>Olá!</h2>
+
+    <p>
+        Esse é o começo do meu site em HTML.
+        Aqui você pode colocar textos, imagens, vídeos e muito mais.
+    </p>
+
+    <button>
+        Clique Aqui
+    </button>
+
+</section>
+
+
+<footer>
+    © 2026 - Meu Site
+</footer>
+
+
+</body>
+</html>
